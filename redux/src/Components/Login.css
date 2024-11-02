@@ -1,0 +1,82 @@
+/* LoginPage.css */
+
+/* Center the login container on the page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f3f3;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container styling */
+.login-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+/* Header styling */
+.login-container h2 {
+    color: #2e9748;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Input styling */
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ccc;
+    box-sizing: border-box;
+}
+
+/* Checkbox label styling */
+.login-container label {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Checkbox styling */
+.login-container input[type="checkbox"] {
+    margin-right: 8px;
+    
+}
+
+/* Button styling */
+.login-container button {
+    background-color: #2e9748;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+    background-color: #2b8248;
+}
+
+/* Error message styling */
+.error-message {
+    color: #ff4d4d;
+    margin-top: 10px;
+    font-size: 14px;
+}

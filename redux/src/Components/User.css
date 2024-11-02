@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    color: green;
+    gap: 50px;
+
+}
+.logout{
+    width: 80px;
+    height: 40px;
+    background-color: red;
+    border: unset;
+    border-radius: .5rem;
+    color: aliceblue;
+}
+.fullpage{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
